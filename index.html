@@ -1,184 +1,369 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Ben Gordon</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-	<body class="is-preload">
+  <head>
+    <title>Ben Gordon</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  <body class="is-preload">
+    <!-- Header -->
+    <div id="header">
+      <div class="top">
+        <div id="logo">
+          <span class="image avatar48"
+            ><img src="images/headshot.png" alt=""
+          /></span>
+          <h1 id="title">Benjamin Gordon</h1>
+          <p>Computer Scientist</p>
+        </div>
 
-		<!-- Header -->
-			<div id="header">
+        <!-- Nav -->
+        <nav id="nav">
+          <ul>
+            <li>
+              <a href="#about" id="top-link"
+                ><span class="icon solid fa-home">About</span></a
+              >
+            </li>
+            <li>
+              <a href="#skills" id="portfolio-link"
+                ><span class="icon solid fa-list">Skills</span></a
+              >
+            </li>
+            <li>
+              <a href="#projects" id="about-link"
+                ><span class="icon solid fa-project-diagram">Projects</span></a
+              >
+            </li>
+            <li>
+              <a href="#contact" id="contact-link"
+                ><span class="icon solid fa-envelope">Contact</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
 
-				<div class="top">
+      <div class="bottom">
+        <!-- Social Icons -->
+        <ul class="icons">
+          <li>
+            <a
+              href="https://github.com/benjamingordon27"
+              class="icon brands fa-github"
+              target="_blank"
+              ><span class="label">GitHub</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/benjamin-gordon-9b422a141/"
+              class="icon brands fa-linkedin-in"
+              target="_blank"
+              ><span class="label">LinkedIn</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://angel.co/u/benjamin-gordon-7"
+              class="icon brands fa-angellist"
+              target="_blank"
+              ><span class="label">Angel's List</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="mailto:benjamingordon27@gmail.com"
+              class="icon solid fa-envelope"
+              target="_blank"
+              ><span class="label">Email</span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
 
-						<div id="logo">
-							<span class="image avatar48"><img src="images/headshot.png" alt="" /></span>
-							<h1 id="title">Benjamin Gordon</h1>
-							<p>Computer Scientist</p>
-						</div>
+    <!-- Main -->
+    <div id="main">
+      <!-- Intro -->
+      <section id="about" class="three">
+        <div class="container">
+          <header>
+            <h2>About Me</h2>
+          </header>
 
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="#about" id="top-link"><span class="icon solid fa-home">About</span></a></li>
-								<li><a href="#skills" id="portfolio-link"><span class="icon solid fa-list">Skills</span></a></li>
-								<li><a href="#projects" id="about-link"><span class="icon solid fa-project-diagram">Projects</span></a></li>
-								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
-							</ul>
-						</nav>
+          <p>
+            I am a software engineer and musician from Queens, NY, currently
+            working for
+            <a href="https://www.perpetualny.com/" target="_blank"
+              >Perpetual.</a
+            >
+            I am a Posse Foundation alumni who attended Lafayette College and
+            graduated in 2019 with a double major in Data Science and Music.
+          </p>
+          <i
+            ><a href="assets/resume/Benjamin_Gordon_Resume.pdf" target="_blank"
+              ><h3 style="color: blue">Resume</h3></a
+            ></i
+          >
+        </div>
+      </section>
 
-				</div>
+      <!-- Skills -->
+      <section id="skills" class="three">
+        <div class="container">
+          <header>
+            <h2>Skills</h2>
+            <p>
+              <strong>Languages: </strong>JavaScript, TypeScript, R, Python,
+              HTML5, CSS3, Java
+            </p>
+            <br />
+            <ul class="icons" style="font-size: 60px">
+              <i class="icon brands fa-js-square"></i>
+              <span class="iconify" data-icon="simple-icons:typescript"></span>
+              <i class="icon brands fa-r-project"></i>
+              <i class="icon brands fa-python"></i>
+              <i class="icon brands fa-html5"></i>
+              <i class="icon brands fa-css3-alt"></i>
+              <i class="icon brands fa-java"></i>
+            </ul>
 
-				<div class="bottom">
+            <p><strong>Libraries/Frameworks: </strong>React, Redux, Node</p>
+            <br />
+            <ul class="icons" style="font-size: 60px">
+              <i class="icon brands fa-react"></i>
+              <span class="iconify" data-icon="cib:redux"></span>
+              <i class="icon brands fa-node-js"></i>
+            </ul>
 
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="https://github.com/benjamingordon27" class="icon brands fa-github" target='_blank'><span class="label" >GitHub</span></a></li>						
-							<li><a href="https://www.linkedin.com/in/benjamin-gordon-9b422a141/" class="icon brands fa-linkedin-in" target='_blank'><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://angel.co/u/benjamin-gordon-7" class="icon brands fa-angellist" target='_blank'><span class="label">Angel's List</span></a></li>
-							<li><a href="mailto:benjamingordon27@gmail.com" class="icon solid fa-envelope" target='_blank'><span class="label">Email</span></a></li>						
-						</ul>
+            <p>
+              <strong>Web Tools: </strong>Git, GitHub, Heroku, PostgreSQL, JIRA,
+              Postman, Storybook
+            </p>
+            <br />
+            <ul class="icons" style="font-size: 60px">
+              <i class="icon brands fa-git"></i>
+              <i class="icon brands fa-github"></i>
+              <span class="iconify" data-icon="cib:heroku"></span>
+              <span class="iconify" data-icon="cib:postgresql"></span>
+              <i class="icon brands fa-jira"></i>
+              <span class="iconify" data-icon="cib:postman"></span>
+              <span class="iconify" data-icon="cib:storybook"></span>
+            </ul>
+          </header>
+        </div>
+      </section>
 
-				</div>
+      <!-- Projects -->
+      <section id="projects" class="three">
+        <div class="container">
+          <header>
+            <h2>Projects</h2>
+          </header>
 
-			</div>
+          <a href="https://youraccelerate.com/" target="_blank"
+            ><h3>Accelerate</h3></a
+          >
+          <br />
+          <a
+            href="https://youraccelerate.com/"
+            class="image featured"
+            target="_blank"
+            ><img src="images/accelerate.png" alt=""
+          /></a>
+          <p style="text-align: left">
+            <i
+              >A social media platform developed to connect healthcare
+              professionals across the globe by
+              <a href="https://himss.org/" target="_blank">HIMSS</a></i
+            >
+          </p>
+          <ul>
+            <li style="text-align: left">
+              Developed collaboratively using Typescript, React.js, Node.js, and
+              PostgreSQL.
+            </li>
+            <li style="text-align: left">
+              Contributed to all parts of the desktop and mobile website on both
+              frontend and backend, including the newsfeed, messaging,
+              user-created events, image storage, and gamification.
+            </li>
+            <li style="text-align: left">
+              Monitored both production and development environments and
+              submitted four hotfixes for repetitive or large network calls.
+            </li>
+            <li style="text-align: left">
+              Served as acting QA engineer when position went unfilled.
+            </li>
+            <li style="text-align: left">
+              Architected data models for storing application information
+              regarding gamification, events, interests, products, and users.
+            </li>
+            <li style="text-align: left">
+              Increase loading time on the app by 30% through Cloudinary
+              transformations.
+            </li>
+            <li style="text-align: left">
+              Create a reusable autocomplete input component from scratch.
+            </li>
+          </ul>
 
-		<!-- Main -->
-			<div id="main">
+          <a href="https://civic-alley.herokuapp.com/" target="_blank"
+            ><h3>Civic Alley</h3></a
+          >
+          <br />
+          <a
+            href="https://civic-alley.herokuapp.com/"
+            class="image featured"
+            target="_blank"
+            ><img src="images/civic-alley.png" alt=""
+          /></a>
+          <p style="text-align: left">
+            <i
+              >A web-based map which offers COVID-19 community resources for
+              Brooklyn, NY, as well as local community organizations.</i
+            >
+          </p>
+          <ul>
+            <li style="text-align: left">
+              Developed collaboratively over Git, using Node.js, React.js,
+              Next.js, CSS, HTML, and Express.js.
+            </li>
+            <li style="text-align: left">
+              Web-scraped data on COVID testing sites in Brooklyn to dynamically
+              display a map of locations.
+            </li>
+            <li style="text-align: left">
+              Used Next.js to dynamically create webpages for each individual
+              testing site and community organization in order to allow easy
+              sharing of information.
+            </li>
+            <li style="text-align: left">
+              <a href="https://github.com/X-n-X/civic-alley" target="_blank"
+                >Github</a
+              >
+            </li>
+          </ul>
 
-				<!-- Intro -->
-				<section id="about" class="three">
-					<div class="container">
+          <a
+            href="https://provokeinsights.com/significant-differences-calculator/"
+            target="_blank"
+            ><h3>Significant Differences, Provoke Insights</h3></a
+          >
+          <br />
+          <a
+            href="https://provokeinsights.com/significant-differences-calculator/"
+            class="image featured"
+            target="_blank"
+            ><img
+              src="images/sig-dif.png"
+              style="
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 30vw;
+                min-width: 330px;
+              "
+              alt=""
+          /></a>
+          <p style="text-align: left">
+            <i
+              >A web-based application that receives a csv of proportions and
+              returns (a table tested for statistically significant
+              differences).</i
+            >
+          </p>
+          <ul>
+            <li style="text-align: left">Developed using Node.js and HTML.</li>
+            <li style="text-align: left">
+              Delivered increased efficiency in numerical checking for use by
+              all employees.
+            </li>
+            <li style="text-align: left">
+              <a
+                href="https://github.com/benjamingordon27/significant-differences"
+                target="_blank"
+                >Github</a
+              >
+            </li>
+          </ul>
 
-						<header>
-							<h2>About Me</h2>
-						</header>						
+          <a
+            href="https://lafayette.maps.arcgis.com/apps/MapSeries/index.html?appid=210c033d64be427abcd3ffa394bb1a25"
+            target="_blank"
+            ><h3>
+              New York City's Subways, Bridges, Highways, & Expressways in the
+              20th Century
+            </h3></a
+          >
+          <br />
+          <a
+            href="https://lafayette.maps.arcgis.com/apps/MapSeries/index.html?appid=210c033d64be427abcd3ffa394bb1a25"
+            class="image featured"
+            target="_blank"
+            ><img src="images/nyc-expressways.png" alt=""
+          /></a>
+          <p style="text-align: left">
+            <i
+              >A story map that details the history of the building of public
+              transit in New York City.</i
+            >
+          </p>
+          <ul>
+            <li style="text-align: left">Developed in ArcGIS Online.</li>
+            <li style="text-align: left">
+              Visualizes the shift in focus of building new subway stations to
+              building bridges, highways and expressways that did not include
+              any lanes for trains or buses.
+            </li>
+            <li style="text-align: left">
+              <a
+                href="https://news.lafayette.edu/2018/10/30/uncovering-political-history-of-nyc-subways/"
+                target="_blank"
+                >News item and video on Lafayette College's website</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
 
-						<p>I am a researcher, computer scientist, and musician from Queens, NY. I am a Posse Foundation alumni who attended Lafayette College
-							and graduated in 2019 with a double major in Data Science and Music. My interests led me to market research, mapping, and more.
-						</p>
-						<br></br>												
-						<i><a href='assets/resume/Benjamin_Gordon_Resume.pdf' target='_blank'><h3 style="color:blue">Resume</h3></a></i>
-						<br></br>
-						
-					</div>
-				</section>
+      <!-- Contact -->
+      <section id="contact" class="four">
+        <div class="container">
+          <h2>Get in touch</h2>
+          <p>
+            Feel free to contact me at via email at
+            <a href="mailto:benjamingordon27@gmail.com"
+              >benjamingordon27@gmail.com</a
+            >
+            or phone at <a href="tel:347-738-0145">(347) 738-0145</a>
+          </p>
+        </div>
+      </section>
+    </div>
 
-				<!-- Skills -->
-					<section id="skills" class="three">
-						<div class="container">
+    <!-- Footer -->
+    <div id="footer">
+      <!-- Copyright -->
+      <ul class="copyright">
+        <li>&copy; Untitled. All rights reserved.</li>
+        <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+      </ul>
+    </div>
 
-							<header>
-								<h2>Skills</h2>
-								<p><strong>Languages: </strong>JavaScript, R, Python, HTML5, CSS3, Java</p>
-								<br>
-									<ul class="icons" style="font-size: 60px;">
-										<i class="icon brands fa-js-square"></i>
-										<i class="icon brands fa-r-project"></i>
-										<i class="icon brands fa-python"></i>
-										<i class="icon brands fa-html5"></i>
-										<i class="icon brands fa-css3-alt"></i>
-										<i class="icon brands fa-java"></i>
-									</ul>
-
-								<p><strong>Libraries/Frameworks: </strong>React, Redux, Node</p>
-									<br>
-										<ul class="icons" style="font-size: 60px;">
-											<i class="icon brands fa-react"></i>
-											<span class="iconify" data-icon="cib:redux"></span>
-											<i class="icon brands fa-node-js"></i>
-										</ul>
-
-								<p><strong>Web Tools: </strong>Git, Heroku, PostgreSQL</p>
-								<br>
-									<ul class="icons" style="font-size: 60px;">
-										<i class="icon brands fa-git"></i>
-										<span class="iconify" data-icon="cib:heroku"></span>
-										<span class="iconify" data-icon="cib:postgresql"></span>																
-									</ul>
-								
-								
-							</header>							
-
-						</div>
-					</section>
-
-				<!-- Projects -->
-					<section id="projects" class="three">
-						<div class="container">
-
-							<header>
-								<h2>Projects</h2>
-							</header>
-
-							<a href="https://civic-alley.herokuapp.com/" target='_blank'><h3>Civic Alley</h3></a>
-							<br>
-							<a href="https://civic-alley.herokuapp.com/" class="image featured" target='_blank'><img src="images/civic-alley.png" alt="" /></a>
-							<p style="text-align: left;"><i>A web-based map which offers COVID-19 community resources for Brooklyn, NY, as well as local community organizations.</i></p>
-							<ul>								
-								<li style="text-align: left;">Developed collaboratively over Git, using Node.js, React.js, Next.js, CSS, HTML, and Express.js.</li>
-								<li style="text-align: left;">Web-scraped data on COVID testing sites in Brooklyn to dynamically display a map of locations.</li>
-								<li style="text-align: left;">Used Next.js to dynamically create webpages for each individual testing site and community organization in order to allow easy sharing of information.</li>
-								<li style="text-align: left;"><a href='https://github.com/X-n-X/civic-alley' target='_blank'>Github</a></li>
-							</ul>
-
-							<a href="https://provokeinsights.com/significant-differences-calculator/" target='_blank'><h3>Significant Differences, Provoke Insights</h3></a>
-							<br>
-							<a href="https://provokeinsights.com/significant-differences-calculator/" class="image featured" target='_blank'><img src="images/sig-dif.png" style="display: block;margin-left:auto;margin-right:auto; width: 30vw; min-width: 330px;" alt="" /></a>
-							<p style="text-align: left;"><i>A web-based application that receives a csv of proportions and returns (a table tested for statistically significant differences).</i></p>
-							<ul>								
-								<li style="text-align: left;">Developed using Node.js and HTML.</li>
-								<li style="text-align: left;">Delivered increased efficiency in numerical checking for use by all employees.</li>
-								<li style="text-align: left;"><a href='https://github.com/benjamingordon27/significant-differences' target='_blank'>Github</a></li>
-							</ul>
-
-							<a href="https://lafayette.maps.arcgis.com/apps/MapSeries/index.html?appid=210c033d64be427abcd3ffa394bb1a25" target='_blank'><h3>New York City's Subways, Bridges, Highways, & Expressways in the 20th Century</h3></a>
-							<br>
-							<a href="https://lafayette.maps.arcgis.com/apps/MapSeries/index.html?appid=210c033d64be427abcd3ffa394bb1a25" class="image featured" target='_blank'><img src="images/nyc-expressways.png" alt="" /></a>
-							<p style="text-align: left;"><i>A story map that details the history of the building of public transit in New York City.</i></p>
-							<ul>								
-								<li style="text-align: left;">Developed in ArcGIS Online.</li>
-								<li style="text-align: left;">Visualizes the shift in focus of building new subway stations to building bridges, highways and expressways that did not include any lanes for trains or buses.</li>
-								<li style="text-align: left;"><a href='https://news.lafayette.edu/2018/10/30/uncovering-political-history-of-nyc-subways/' target='_blank'>News item and video on Lafayette College's website</a></li>
-							</ul>
-
-						</div>
-					</section>
-
-				<!-- Contact -->
-					<section id="contact" class="four">
-						<div class="container">
-
-							<h2>Get in touch</h2>
-							<p>Feel free to contact me at via email at <a href = "mailto:benjamingordon27@gmail.com">benjamingordon27@gmail.com</a>
-								 or phone at <a href="tel:347-738-0145">(347) 738-0145</a></p>
-
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Footer -->
-			<div id="footer">
-
-				<!-- Copyright -->
-					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
